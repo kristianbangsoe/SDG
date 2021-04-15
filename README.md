@@ -18,5 +18,5 @@
 
 // Additional info for debugging
 
-npm -v: 6.7.0
+npm -v: 6.7.0,
 node -v: v11.15.0
