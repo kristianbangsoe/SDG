@@ -1,0 +1,53 @@
+
+#project_filtering{
+    label{
+        color: white;
+    }
+    select, input {
+    width: 225px;
+    }
+}
+#project-feed-container{
+    background: $gray;
+    min-height: 600px;
+
+    #projects_feed{
+        .card-item{
+            margin-bottom 25px
+            .card-item-content{
+                min-height: 400px;
+            }
+            .item-cover {
+                overflow: hidden;
+                height: 18vw;
+                border-bottom: 7px solid;
+                img{
+                    transition: 0.4s ease;
+                     transform: scale(1.09);
+                    width: 100%;
+                    height: 18vw;
+                    object-fit: cover;
+                }
+            }
+            h4.excerpt {
+                color: $dark;
+                height 50px;
+            }    
+            &:hover .item-cover img{
+               
+                transform: scale(1);
+            }   
+             .item-logo {
+                height: 15px;
+                object-fit: cover;
+            }
+        }
+        
+    }
+    .no_results p{
+        display: none
+        text-align: center
+    }
+
+}
+

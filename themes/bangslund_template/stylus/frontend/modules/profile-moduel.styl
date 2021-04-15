@@ -1,0 +1,110 @@
+.profile{
+    margin-top: -146px;
+    .profile-header{
+        color: white;
+        a{
+            font-weight:600;
+        }
+    }
+    .box-shadow{
+        box-shadow: 0 0 20px #00000014;
+    }
+
+    @media ($x-large-media){
+        .default-col{
+            min-height: 800px;
+        }
+    }
+
+    .project-item {
+        margin-bottom: 2rem;
+        a{
+            justify-content: space-between;
+            img {
+                flex: none;
+                width 200px;
+                object-fit: cover;
+                object-position: center;
+                border-right: 4px solid $green;
+            }
+            .excerpt, p{
+                color: $dark;    
+            }
+        }
+        
+    }
+
+    .tab-section{
+        border-bottom: 1px solid #efefef;
+        background: white;
+        a.nav-link {
+            font-weight: 600;
+            color: #000000;
+           
+            padding: 20px 20px;
+            
+           
+        }
+        a.nav-link.active {
+           
+            background: white;
+            color: $green;
+        }
+    }
+    .profile-logo{
+        width: 70%;
+        object-fit: contain;
+        object-position: center;
+        height 100px
+        margin: 0 auto;
+        display: block;
+    }
+    .profile-some{
+        .some-title{
+            font-weight: 600;
+        }
+        i{
+            font-size: 20px;
+            margin-right: 20px;
+        }    
+    }
+    .contact-item{
+        p{
+            font-size: 14px;
+        }
+        .contact-title{
+            font-weight: 600;
+            margin-bottom: 0;
+        
+        }
+    }
+
+    .tab-pane {
+        h1,h2,h3,h4,h5,h6{
+            margin-bottom: 30px;
+            &::after {
+                content: '';
+                width: 100px;
+                height: 3px;
+                background: $green;
+                position: absolute;
+                left: 57px;
+                margin-top: 46px;
+            }
+        }
+        
+        p{
+            line-height: 25px;
+            strong{
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+ #create-account.bg-image{
+    p, h1,label{
+        color:white;
+    }
+ }

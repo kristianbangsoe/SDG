@@ -1,0 +1,41 @@
+html
+    .pricing-plans
+        .plan
+            .plan-wrapper
+                aspect-ratio 1/1
+                .btn-link
+                    color: $dark;
+                .plan-title
+                    text-transform: uppercase;
+                    text-align: center;
+                .price
+                    font-size: 3rem;
+                    text-align: center;
+                    font-weight: 600;
+                    letter-spacing: -1px;
+                    span
+                        font-size 1rem
+                .plan-content
+                    aspect-ratio 1/1
+                    li i {
+                        color: $dark;
+                    }
+
+                    li {
+                        padding-bottom: 10px;
+                    }
+        .plan[data-highlight='true']
+            padding 0px
+            position relative
+            z-index 1
+            .btn-link
+                color: white;
+            .plan-wrapper
+                background $dark
+                color white
+                transform scale(1.1)
+                li i
+                    color: white!important;
+
+
+

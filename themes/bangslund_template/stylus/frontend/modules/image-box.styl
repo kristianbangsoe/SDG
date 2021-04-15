@@ -1,0 +1,27 @@
+.image-box-section{
+    
+    .title-section{
+        position: relative;
+        z-index: 1;
+    }
+    .offset-bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .description{
+        p{
+            line-height: 30px;
+        }
+    }
+    @media $x-small-media {
+        background: none;
+        .title-section{
+            box-shadow: none;
+        }
+        .btn, .btn-primary{
+            width: 100%
+        }
+   
+    }
+}

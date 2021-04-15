@@ -1,0 +1,74 @@
+.featured-section{
+    .carousel-inner{
+        height 355px;
+    }
+
+    .item-logo{
+        height: 15px;
+        object-fit: cover;
+    }
+
+
+    .item-cover{
+        height: 175px;
+        object-fit: cover;
+    }
+
+    .excerpt{
+        overflow hidden;
+        color: $dark;
+    }
+    
+    h4{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .arrow-controls{
+        .arrow-control{
+            position: relative;
+            opacity 1;
+            width: 40px;
+            height: 40px;
+            transform: rotate(180deg);
+            background: url(/wp-content/themes/dist/img/icons/arrow-2.svg) no-repeat center, $green;
+            transition: 0.3s;
+            &:hover{
+                background-color: $color_hover;
+                transform: scale(1.1) rotate(180deg);
+            }
+        }
+
+        .arrow-control:last-child{
+            transform: rotate(0deg);
+            &:hover{
+                background-color: $color_hover;
+                transform: scale(1.1) rotate(0deg);
+            }
+        }
+    }
+
+}
+
+.item-company{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: $dark;
+    font-weight: 500;
+}
+
+.project-item a{
+     
+    height auto;
+        .divider {
+        height: 5px;
+    }
+    p{
+        color:#5a5a5a;
+    }
+}
+.card-details {
+    text-transform: uppercase;
+    font-weight: 700; 
+    font-size: 0.8rem;   
+}

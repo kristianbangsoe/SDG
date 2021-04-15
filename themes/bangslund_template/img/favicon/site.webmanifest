@@ -1,0 +1,20 @@
+{
+    "name": "SDG World",
+    "short_name": "SDG World",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#f26a2c",
+    "background_color": "#f26a2c",
+    "start_url": "http://sdgworld.org",
+    "display": "standalone"
+}

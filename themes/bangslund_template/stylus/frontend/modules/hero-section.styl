@@ -1,0 +1,47 @@
+
+    .bg-image{
+        background-repeat: no-repeat;
+        background-position: center;
+        .hero-wrapper{
+            height: auto;
+            min-height: 300px;
+            padding-top:  100px;
+            padding-bottom:  100px;
+        }
+        background-image: linear-gradient(90deg, rgba(49,49,49,1) 0%,rgba(49,49,49,0) 100%),
+            var(--hero-image);
+        @media $x-small-media {
+            background-image: linear-gradient(90deg, rgba(49,49,49,0.79) 0%, rgba(49,49,49,0.59) 100%),
+            var(--hero-image);
+        }
+        
+        background-size: cover;
+    }
+.hero-section{
+
+
+    .hero_title{
+        
+        line-height: 5rem;
+        font-weight: bold;
+        @media $x-small-media {
+            font-size: 3rem;
+            line-height: 4.4rem;
+        }
+    }
+
+    .tagline{
+        line-height: 25px;
+    }
+
+}
+
+.hero-section.hero-2
+    .hero-wrapper
+        height auto;
+
+
+.bg-gray{
+    background-color: $gray
+}
+

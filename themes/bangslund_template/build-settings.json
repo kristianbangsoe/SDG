@@ -1,0 +1,18 @@
+{
+  "development_url" : "http://localhost/",
+  "project_name": "dk.name",
+  "project_type": "wordpress-theme",
+  "theme_name": "NUMBER-NAME",
+  "version": "1.0",
+  "enable_browser_sync" : true,
+  "root_dir_file_extensions": ["html", "htm", "php", "png", "ico", "css"],
+  "project_directories": ["page-templates", "module-templates", "includes", "fonts", "img", "languages", "js/plugins", "css", "woocommerce"],
+  "bisynced_directories": ["exports"],
+  "dist": "../dist",
+  "authors": [
+      {
+          "name": "Viktor Poulsen",
+          "email": "vipo@html24.net"
+      }
+  ]
+}

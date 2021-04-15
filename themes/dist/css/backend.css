@@ -1,0 +1,42 @@
+#acf-field-group-fields .postbox-header {
+  display: block !important;
+}
+.login h1 a {
+  background-size: 142px;
+  height: 56px;
+  width: 185px;
+}
+body {
+  background: #fff;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow,
+#adminmenu .wp-menu-arrow div,
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+.folded #adminmenu li.current.menu-top,
+.folded #adminmenu li.wp-has-current-submenu {
+  background: #f26a2c;
+}
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback,
+#adminmenuwrap {
+  background: #194a6b;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu,
+.no-js li.wp-has-current-submenu:hover .wp-submenu {
+  background: #196293;
+}
+#wpadminbar {
+  background: #196293;
+}
+.wp-core-ui .button-primary {
+  background: #f26a2c;
+  border-color: #f26a2c;
+}
+
+/*# sourceMappingURL=backend.css.map */

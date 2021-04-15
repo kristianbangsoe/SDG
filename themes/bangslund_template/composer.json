@@ -1,0 +1,19 @@
+{
+  "name": "html24/wordpress-template",
+  "authors": [
+    {
+      "name": "Viktor Poulsen",
+      "email": "vipo@html24.net"
+    }
+  ],
+  "dist": {
+    "url": "http://ci.html24.dk/job/*JOB_NAME*/lastSuccessfulBuild/artifact/dist/**/*zip*/dist.zip",
+    "type": "zip"
+  },
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "@stable",
+    "onpayio/php-sdk" : "@stable"
+  }
+  
+}

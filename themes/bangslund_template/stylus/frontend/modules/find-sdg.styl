@@ -1,0 +1,106 @@
+#find-sdg{
+    background: #f3f3f3;
+    transition: 1.5s;
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 26px;
+        
+     
+    }
+
+    .categories {
+        margin: 0 auto;
+        float: left;
+        text-align: center;
+        width: 100%;
+        transform: translateY(-190px);
+        position: relative;
+        z-index: 999;
+    }
+    
+
+    .categories a {
+        font-size: 16px;
+        display none;
+        
+    }
+
+    .sdg-wrapper{
+        margin-bottom: 30px;
+        height: 108px;
+        margin-top: 260px;
+        .sdg-img {
+            width: 200px;
+
+        }
+        .sdg-title {
+            line-height: 32px;
+            font-size: 3.5em;
+            height: 63px;
+            margin-top: -75px;
+            font-weight: 600;
+            margin-bottom: 0;
+            color: $dark;
+        }
+        .sdg-description {
+            line-height: 24px;
+            font-size: 1em;
+            height: 96px;
+            font-weight: 500;
+            
+        }
+    }
+
+    
+
+    .half-circle-menu {
+        width: 775px;
+        height: 775px;
+        margin: 50px auto 0;
+        padding-bottom: 2px;
+        border-radius:100%;
+        background: white;
+        transition: 0.4s;
+        
+    }
+
+    .center-circle {
+        top: 330px;
+        margin: 0 auto;
+        width: 345px;
+        height: 250px;
+        line-height: 50px;
+        text-align: center;
+        /*background: #444;*/
+        list-style-type: none;
+        position: relative;
+    }
+
+    .little-circle {
+       cursor: pointer;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        background-position: center;
+        background-size: 70px;
+        background-repeat: no-repeat;
+        transition: 0.3s;
+        border: 4px solid #ffffff8c;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    a.little-circle.active {
+        border: 4px solid #d6d6d6;
+        transform: scale(3);
+        left: calc(50% - 45px)!important;
+        margin-top: -100px!important;
+        border: none;
+         
+        
+    }
+}
